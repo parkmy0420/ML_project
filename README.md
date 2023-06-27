@@ -3,13 +3,13 @@
 # 내 옷 좀 추천해 조!
 > 의류 실측 데이터 기반 프리사이즈 분석 및 개인화 의류 추천 시스템
 
-## 목차
-[💡Introduction](#-introduction)
+## Contents
+[💡 Introduction](#-introduction)
 1. [Project Introduction](#1-Project-Introduction)
 2. [Result Video](#2-Result-Video)
 3. [Project Background](#3-project-background)
 
-[⚙️Development Process](#%EF%B8%8F-development-process)
+[⚙️ Development Process](#%EF%B8%8F-development-process)
 1. [Data Description](#1-Data-Description)
 2. [EDA](#2-EDA)
 3. [Preprocessing](#3-Preprocessing)
@@ -45,10 +45,10 @@
 
 ### 2. EDA
  - 제품 성별 비율 및 제품 내 프리사이즈 비율 확인  
-<img width="600" alt="ratio graph" src="https://github.com/parkmy0420/ML_project/assets/87077176/0339237a-d69a-4a3e-8f76-fa0f9f415d63">
+    <img width="600" alt="ratio graph" src="https://github.com/parkmy0420/ML_project/assets/87077176/0339237a-d69a-4a3e-8f76-fa0f9f415d63">
 
  - 사이즈 별 실측 데이터 확인(boxplot graph)  
-<img width="600" alt="ratio graph" src="https://github.com/parkmy0420/ML_project/assets/87077176/b1619ebb-e91a-4144-8490-6a57892c2020">
+    <img width="600" alt="ratio graph" src="https://github.com/parkmy0420/ML_project/assets/87077176/b1619ebb-e91a-4144-8490-6a57892c2020">
 
 ### 3. Preprocessing
 - 소매길이 컬럼 제거
@@ -114,13 +114,13 @@
   - 남성, 여성 모두 사이즈를 기반한 카테고리 별 제품을 잘 보여주는 것으로 확인됨
 
 ### 5. Limitations and Improvements
-#### 5.1 Limitations
+#### Limitations
 - 모델 비교 선택 시 모델 간 평가지표의 차이가 없어 과적합이 의심됨으로 객관적 판단이 어려움
 - 데이터 개수의 부족으로 인해 극단 값들의 추천 결과가 아쉬움
 - 고객 별로 추구하는 스타일이 달라서 사이즈 기반으로만 추천하기에는 정확도가 떨어져 보였음
 - 추천 시스템을 객관적으로 평가하기 어려움
     
-#### 5.2 Improvements
+#### Improvements
 - 더 많은 리뷰 데이터를 수집하면 더 정확하고 다양한 제품 추천이 가능할 것으로 보임
 - 규제 기법(Ridge, Lasso) 등을 활용하여 과적합을 줄이는 시도가 필요
 
