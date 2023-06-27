@@ -1,6 +1,6 @@
 <img width="1000" alt="스크린샷 2023-06-27 오후 9 43 03" src="https://github.com/parkmy0420/ML_project/assets/63055186/cbc99132-b511-4bc5-a2da-2d4b1f502810">
 
-# 내 옷 좀 추천해 조!
+# 내 옷 좀 추천해 조! <a href="https://github.com/Anti-KAOS"><img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=Notion&logoColor=white"/></a>
 > 의류 실측 데이터 기반 프리사이즈 분석 및 개인화 의류 추천 시스템
 
 ## Contents
