@@ -25,8 +25,8 @@
 <img width="600" alt="Untitled" src="https://github.com/parkmy0420/ML_project/assets/87077176/62abb6fb-7d58-4b74-b2da-d8d1e728e9e2">
 
 ### 2. Result Video
-https://github.com/parkmy0420/ML_project/assets/87077176/5712b07e-9d10-4715-bde4-4e2fbd1790f2
- [Untitled.mp4](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ddb3edd5-2cc6-4dfd-b587-0a3c36ed3e89/Untitled.mp4)
+![화면 기록 2023-06-22 오후 10 55 53 (2)](https://github.com/parkmy0420/ML_project/assets/63055186/b7766c1b-a1e0-40c5-bde2-69f3149980ed)
+
     
 ### 3. Project Background
  - **"2017~2019년 사이 온라인 쇼핑몰 거래액  120% 증가"**  
