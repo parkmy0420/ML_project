@@ -25,7 +25,7 @@
 <img width="600" alt="Untitled" src="https://github.com/parkmy0420/ML_project/assets/87077176/62abb6fb-7d58-4b74-b2da-d8d1e728e9e2">
 
 ### 2. Result Video
-![화면 기록 2023-06-22 오후 10 55 53 (2)](https://github.com/parkmy0420/ML_project/assets/63055186/b7766c1b-a1e0-40c5-bde2-69f3149980ed)
+![1](https://github.com/parkmy0420/ML_project/assets/131857233/1df3bf6b-9d38-46e4-9ea3-c46766c46fd7)
 
     
 ### 3. Project Background
