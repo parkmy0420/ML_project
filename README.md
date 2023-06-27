@@ -1,25 +1,21 @@
-# 내 옷 좀 추천해 조!
-## 의류 실측 데이터 기반 프리사이즈 분석 및 개인화 의류 추천 시스템
-<img width="500" alt="스크린샷 2023-06-27 오후 6 44 46" src="https://github.com/parkmy0420/ML_project/assets/63055186/193b59ee-2364-4508-a2a4-c9db9027b9ba">
+# 의류 실측 데이터 기반 프리사이즈 분석 및 개인화 의류 추천 시스템
+<img width="500" alt="스크린샷 2023-06-27 오후 6 44 46" src="https://github.com/parkmy0420/ML_project/assets/63055186/193b59ee-2364-4508-a2a4-c9db9027b9ba">   
 
+**Team) 내 옷 좀 추천해 조!**  
 
 ## Introduction
 ### 1. Project Introduction
 #### “ 의류 실측 데이터 기반 프리사이즈 분석 및 개인화 의류 추천 시스템 ”
-  무신사에서 상의 데이터를 크롤링하여 획일화 된 사이즈 표기방식으로 변환하고, 사용자의 신체 정보에 따라 맞춤형 의류 추천 시스템을 구현
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2d93fdbd-173d-4598-ae6d-91310f5b15e4/Untitled.png)
+  무신사에서 상의 데이터를 크롤링하여 획일화 된 사이즈 표기방식으로 변환하고, 사용자의 신체 정보에 따라 맞춤형 의류 추천 시스템을 구현  
+ ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2d93fdbd-173d-4598-ae6d-91310f5b15e4/Untitled.png)
     
 ### 2. Result Video
-    
-    (영상)
-    
-    [Untitled.mp4](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ddb3edd5-2cc6-4dfd-b587-0a3c36ed3e89/Untitled.mp4)
+ [Untitled.mp4](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ddb3edd5-2cc6-4dfd-b587-0a3c36ed3e89/Untitled.mp4)
     
 ### 3. Project Backgound
- - **“2017~2019년 사이 온라인 쇼핑몰 거래액  120% 증가”**  
+ - **“ 2017~2019년 사이 온라인 쇼핑몰 거래액  120% 증가 ”**  
   통계청 온라인쇼핑동향조사에 따르면 2017년 이후부터 지속적으로 온라인 쇼핑 거래액이 증가하고 있다.
- - **”프리사이즈 기준의 모호함”**  
+ - **“ 프리사이즈 기준의 모호함 ”**  
   하지만, one 사이즈인 ‘프리사이즈’와 각 브랜드 별로 다른 사이즈 기준으로 인해 소비자들은 본인 체형에 맞는 사이즈 선택의 어려움을 겪고있다.
 (출처 : [온라인 의류사업 지속적인 성장](http://dew.dothome.co.kr/2020/12/26/도대체-프리사이즈의-기준이-뭔가요-규제-없는-의/) / [프리사이즈 실태](http://www.storyofseoul.com/news/articleView.html?idxno=3710))
 
@@ -58,19 +54,19 @@
 ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6a60fe54-4915-4934-ab46-d092d6b6616d/Untitled.png)    
 4.1 Description
 - Random Forest Model (랜덤 포레스트 모델)  
-  → MUSINSA STANDARD의 실측 데이터(총장, 가슴단면, 어깨너비)로
-        사이즈 분류 시행
-4.2 Model Selection Process
- ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8c85f629-4ffc-4942-b32f-7d178148b8f6/Untitled.png)
+  → MUSINSA STANDARD의 실측 데이터(총장, 가슴단면, 어깨너비)로 사이즈 분류 시행
+  
+4.2 Model Selection Process  
+ ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8c85f629-4ffc-4942-b32f-7d178148b8f6/Untitled.png)  
         
-4.3 Hyper Parameter Selection Process       
+4.3 Hyper Parameter Selection Process         
  ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9e33d4e6-187f-4f83-b23e-3acd172a8804/Untitled.png)
         
-4.4 Classification Model Evaluation
+4.4 Classification Model Evaluation  
  ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5ed91ceb-d5d6-427f-b362-caab06de7e1f/Untitled.png)       
  ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/81ac89b3-eccf-4658-9c93-3e71a1c90033/Untitled.png)
         
-4.5 Results of the Classification Model (final data set)
+4.5 Results of the Classification Model (final data set)  
  ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a7c0affb-fcda-4882-abdf-251faf977460/Untitled.png)
             
 #### Recommendation Model
@@ -81,19 +77,20 @@
   →  TF-IDF로 얻어진 태그 벡터의 유사도를 이용해 최종 제품 추천
 - TF-IDF (단어 빈도-역 문서 빈도)
   →  한국어 형태로 된 태그를 벡터 형태로 표현하기 위해 사용
-4.7 Result of the Recommendation Model
+4.7 Result of the Recommendation Model  
   ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0f627a5d-0ad1-421c-907f-67b915539899/Untitled.png)
+
 #### Summary (results of the model)
-    
-    - Classification Model
-        - **MUSINSA STANDARD**의 실측 데이터를 기준으로 사이즈 분류 모델은 **RandomForest**로 선정하여 진행함
-        - 남성, 여성을 나누어 분류 모델을 진행하였고, **Grid Search**를 통하여 최적의 하이퍼 파라미터를 도출함
-        - **남성**은 F1스코어 기준 **3XL, S, 2XL** 순으로 모델 성능이 좋았음
-        - **여성**은 모델 성능평가 결과 **XS, S, L** 순 나타났음
-    - Recommendation Model
-        - 제품 정보(키, 몸무게, 성별, 태그 등)를 벡터화시켜 **코사인 유사도**를 이용하여 추천시스템을 진행함 (콘텐츠 기반)
-        - 키, 몸무게, 성별, 선호 사이즈를 입력하면 유사도가 가장 높은 제품 N개 추천해주는 시스템을 제작함
-        - 남성, 여성 모두 사이즈를 기반한 카테고리 별 제품을 잘 보여주는 것으로 확인됨
+- Classification Model
+  - **MUSINSA STANDARD**의 실측 데이터를 기준으로 사이즈 분류 모델은 **RandomForest**로 선정하여 진행함
+  - 남성, 여성을 나누어 분류 모델을 진행하였고, **Grid Search**를 통하여 최적의 하이퍼 파라미터를 도출함
+  - **남성**은 F1스코어 기준 **3XL, S, 2XL** 순으로 모델 성능이 좋았음
+  - **여성**은 모델 성능평가 결과 **XS, S, L** 순 나타났음
+- Recommendation Model
+  - 제품 정보(키, 몸무게, 성별, 태그 등)를 벡터화시켜 **코사인 유사도**를 이용하여 추천시스템을 진행함 (콘텐츠 기반)
+  - 키, 몸무게, 성별, 선호 사이즈를 입력하면 유사도가 가장 높은 제품 N개 추천해주는 시스템을 제작함
+  - 남성, 여성 모두 사이즈를 기반한 카테고리 별 제품을 잘 보여주는 것으로 확인됨
+
 ### 5. Limitations and Improvements
 #### Limitations
 - 모델 비교 선택 시 모델 간 평가지표의 차이가 없어 과적합이 의심됨으로 객관적 판단이 어려움
