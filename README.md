@@ -93,10 +93,10 @@
   <img width="600" alt="Untitled (7)" src="https://github.com/parkmy0420/ML_project/assets/87077176/cc0513ab-7097-490d-a4ac-07b777c7c2e7">
 
 - Description
-  - Cosine Similarity (코사인 유사도)
-  →  사용자의 특성(키, 몸무게, 성별)을 통하여 가장 유사한 상위 20개 제품 추천
-  →  TF-IDF로 얻어진 태그 벡터의 유사도를 이용해 최종 제품 추천
-  - TF-IDF (단어 빈도-역 문서 빈도)
+  - Cosine Similarity (코사인 유사도)  
+  →  사용자의 특성(키, 몸무게, 성별)을 통하여 가장 유사한 상위 20개 제품 추천  
+  →  TF-IDF로 얻어진 태그 벡터의 유사도를 이용해 최종 제품 추천  
+  - TF-IDF (단어 빈도-역 문서 빈도)  
   →  한국어 형태로 된 태그를 벡터 형태로 표현하기 위해 사용
 
 - Result of the Recommendation Model  
