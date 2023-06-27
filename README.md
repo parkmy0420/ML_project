@@ -4,17 +4,17 @@
 > 의류 실측 데이터 기반 프리사이즈 분석 및 개인화 의류 추천 시스템
 
 ## 목차
-[Introduction](##Introduction)
-1. [Project Introduction](###1.-Project-Introduction)
-2. [Result Video](###2.-Result-Video)
-3. [Project Background](###3.-Project-Background)
+[Introduction](#Introduction)
+1. [Project Introduction](#1-Project-Introduction)
+2. [Result Video](#2-Result-Video)
+3. [Project Background](#3-project-background)
 
-[Development Process](##Development-Process)
-1. [Data Description](###1.-Data-Description)
-2. [EDA](###2.-EDA)
-3. [Preprocessing](###3.-Preprocessing)
-4. [Model](###4.-Model)
-5. [Limitations and Improvements](###5.-Limitations-and-Improvements)
+[Development Process](#Development-Process)
+1. [Data Description](#1-Data-Description)
+2. [EDA](#2-EDA)
+3. [Preprocessing](#3-Preprocessing)
+4. [Model](#4-Model)
+5. [Limitations and Improvements](#5-Limitations-and-Improvements)
 
 -------------
 ## 💡 Introduction
@@ -28,7 +28,7 @@
 https://github.com/parkmy0420/ML_project/assets/87077176/5712b07e-9d10-4715-bde4-4e2fbd1790f2
  [Untitled.mp4](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ddb3edd5-2cc6-4dfd-b587-0a3c36ed3e89/Untitled.mp4)
     
-### 3. Project Backgound
+### 3. Project Background
  - **"2017~2019년 사이 온라인 쇼핑몰 거래액  120% 증가"**  
   통계청 온라인쇼핑동향조사에 따르면 2017년 이후부터 지속적으로 온라인 쇼핑 거래액이 증가하고 있다.
  - **"프리사이즈 기준의 모호함"**  
