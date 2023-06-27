@@ -126,7 +126,7 @@
 
 --------------
 
-## ⭐️ Team member Information
+## ⭐️ Team members Info
 
 |Member|Infomation Link|
 |------|----------|
