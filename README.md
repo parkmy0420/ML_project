@@ -1,12 +1,15 @@
-# 의류 실측 데이터 기반 프리사이즈 분석 및 개인화 의류 추천 시스템
-**Team) 내 옷 좀 추천해 조!**  
-<img width="500" alt="스크린샷 2023-06-27 오후 6 44 46" src="https://github.com/parkmy0420/ML_project/assets/63055186/193b59ee-2364-4508-a2a4-c9db9027b9ba">   
+<img width="1000" alt="스크린샷 2023-06-27 오후 9 43 03" src="https://github.com/parkmy0420/ML_project/assets/63055186/cbc99132-b511-4bc5-a2da-2d4b1f502810">
 
-## Introduction
+# 내 옷 좀 추천해 조!
+> 의류 실측 데이터 기반 프리사이즈 분석 및 개인화 의류 추천 시스템
+
+-------------
+## 💡 Introduction
+
 ### 1. Project Introduction
 #### “ 의류 실측 데이터 기반 프리사이즈 분석 및 개인화 의류 추천 시스템 ”
 무신사에서 상의 데이터를 크롤링하여 획일화 된 사이즈 표기방식으로 변환하고, 사용자의 신체 정보에 따라 맞춤형 의류 추천 시스템을 구현  
-<img width="665" alt="Untitled" src="https://github.com/parkmy0420/ML_project/assets/87077176/62abb6fb-7d58-4b74-b2da-d8d1e728e9e2">
+<img width="600" alt="Untitled" src="https://github.com/parkmy0420/ML_project/assets/87077176/62abb6fb-7d58-4b74-b2da-d8d1e728e9e2">
 
 ### 2. Result Video
 https://github.com/parkmy0420/ML_project/assets/87077176/5712b07e-9d10-4715-bde4-4e2fbd1790f2
@@ -19,17 +22,20 @@ https://github.com/parkmy0420/ML_project/assets/87077176/5712b07e-9d10-4715-bde4
   하지만, one 사이즈인 ‘프리사이즈’와 각 브랜드 별로 다른 사이즈 기준으로 인해 소비자들은 본인 체형에 맞는 사이즈 선택의 어려움을 겪고있다.  
   (출처 : [온라인 의류사업 지속적인 성장](http://dew.dothome.co.kr/2020/12/26/도대체-프리사이즈의-기준이-뭔가요-규제-없는-의/) / [프리사이즈 실태](http://www.storyofseoul.com/news/articleView.html?idxno=3710))
  
-▷ 따라서, 서로 다른 사이즈 기준을 획일화된 규격 사이즈로의 재정의가 필요하다고 판단하여 개인화 의류 추천 시스템을 개발하고자 한다.  
-▷ 따라서, 프리사이즈 및 브랜드 별로 다른 사이즈 기준을 일관된 사이즈로 정립하고,  분류한 사이즈와 사용자의 특성(키, 몸무게, 성별), 태그를 입력 받아 고객의 특성에 맞는 제품 추천 시스템을 개발하고자 하였습니다…?
+▷ 따라서, 프리사이즈 및 브랜드 별로 다른 사이즈 기준을 일관된 사이즈로 정립하고, 사용자의 특성(키, 몸무게, 성별), 태그를 입력 받아 고객의 특성에 맞는 제품 추천 시스템을 개발하고자 하였다.
 
+----------
 
-## Development Process
+## ⚙️ Development Process
 ### 1. Data Description
-<img width="665" alt="Untitled" src="https://github.com/parkmy0420/ML_project/assets/87077176/87f73b83-8947-4263-b68e-801fd0880ad5">
+<img width="600" alt="Untitled" src="https://github.com/parkmy0420/ML_project/assets/87077176/87f73b83-8947-4263-b68e-801fd0880ad5">
 
 ### 2. EDA
- - 제품 성별 비율 및 제품 내 프리사이즈 비율 확인  <img width="754" alt="ratio graph" src="https://github.com/parkmy0420/ML_project/assets/87077176/0339237a-d69a-4a3e-8f76-fa0f9f415d63">
- - 사이즈 별 실측 데이터 확인 - boxplot graph  <img width="754" alt="ratio graph" src="https://github.com/parkmy0420/ML_project/assets/87077176/b1619ebb-e91a-4144-8490-6a57892c2020">
+ - 제품 성별 비율 및 제품 내 프리사이즈 비율 확인  
+<img width="600" alt="ratio graph" src="https://github.com/parkmy0420/ML_project/assets/87077176/0339237a-d69a-4a3e-8f76-fa0f9f415d63">
+
+ - 사이즈 별 실측 데이터 확인(boxplot graph)  
+<img width="600" alt="ratio graph" src="https://github.com/parkmy0420/ML_project/assets/87077176/b1619ebb-e91a-4144-8490-6a57892c2020">
 
 ### 3. Preprocessing
 - 소매길이 컬럼 제거
@@ -39,8 +45,8 @@ https://github.com/parkmy0420/ML_project/assets/87077176/5712b07e-9d10-4715-bde4
   - 19개의 행이있으며, 객관적인 성별의 구분이 어려움
 - 특정 브랜드(GLIMMER) 내 성인 사이즈가 아닌 행 제거
 - 이상치 제거 - IQR * 3  
-  <img width="754" alt="ratio graph" src="https://github.com/parkmy0420/ML_project/assets/87077176/6ad4d13d-73c1-4630-93f4-5c28a1cd15c6">  
-  <img width="754" alt="ratio graph" src="https://github.com/parkmy0420/ML_project/assets/87077176/5cc8f96e-0391-484c-9af8-d7c21a6d11a7">
+  <img width="600" alt="ratio graph" src="https://github.com/parkmy0420/ML_project/assets/87077176/6ad4d13d-73c1-4630-93f4-5c28a1cd15c6">  
+  <img width="600" alt="ratio graph" src="https://github.com/parkmy0420/ML_project/assets/87077176/5cc8f96e-0391-484c-9af8-d7c21a6d11a7">
 
 - 리뷰 데이터 키, 몸무게의 이상치 제거
   - 키 : 150cm 미만 / 200cm 이상
@@ -51,7 +57,7 @@ https://github.com/parkmy0420/ML_project/assets/87077176/5712b07e-9d10-4715-bde4
 
 ### 4. Model
 #### 4.1 Classification Model
-  <img width="641" alt="classificationModel" src="https://github.com/parkmy0420/ML_project/assets/87077176/6ee2628b-a029-48f4-967f-eb3d5e12b488">
+  <img width="600" alt="classificationModel" src="https://github.com/parkmy0420/ML_project/assets/87077176/6ee2628b-a029-48f4-967f-eb3d5e12b488">
   
 - Description
   - Random Forest Model (랜덤 포레스트 모델)  
@@ -68,10 +74,10 @@ https://github.com/parkmy0420/ML_project/assets/87077176/5712b07e-9d10-4715-bde4
   <img width="600" alt="Untitled (5)" src="https://github.com/parkmy0420/ML_project/assets/87077176/c1d0641f-1734-4807-9edd-71d1e6d8c785">
 
 - Results of the Classification Model (final data set)  
-  <img width="691" alt="Untitled (6)" src="https://github.com/parkmy0420/ML_project/assets/87077176/540d75bd-12ca-4ee1-b747-8b84c0737544">
+  <img width="600" alt="Untitled (6)" src="https://github.com/parkmy0420/ML_project/assets/87077176/540d75bd-12ca-4ee1-b747-8b84c0737544">
             
 #### 4.2 Recommendation Model
-  <img width="661" alt="Untitled (7)" src="https://github.com/parkmy0420/ML_project/assets/87077176/cc0513ab-7097-490d-a4ac-07b777c7c2e7">
+  <img width="600" alt="Untitled (7)" src="https://github.com/parkmy0420/ML_project/assets/87077176/cc0513ab-7097-490d-a4ac-07b777c7c2e7">
 
 - Description
   - Cosine Similarity (코사인 유사도)
@@ -81,7 +87,7 @@ https://github.com/parkmy0420/ML_project/assets/87077176/5712b07e-9d10-4715-bde4
   →  한국어 형태로 된 태그를 벡터 형태로 표현하기 위해 사용
 
 - Result of the Recommendation Model  
-  <img width="623" alt="Untitled (8)" src="https://github.com/parkmy0420/ML_project/assets/87077176/4e0ebae5-a535-4ada-a4ae-d63c2ecf09b1">
+  <img width="600" alt="Untitled (8)" src="https://github.com/parkmy0420/ML_project/assets/87077176/4e0ebae5-a535-4ada-a4ae-d63c2ecf09b1">
 
 #### 4.3 Summary (results of the model)
 - Classification Model
@@ -105,8 +111,9 @@ https://github.com/parkmy0420/ML_project/assets/87077176/5712b07e-9d10-4715-bde4
 - 더 많은 리뷰 데이터를 수집하면 더 정확하고 다양한 제품 추천이 가능할 것으로 보임
 - 규제 기법(Ridge, Lasso) 등을 활용하여 과적합을 줄이는 시도가 필요
 
+--------------
 
-## Team member Information
+## ⭐️ Team member Information
 
 |Member|Infomation Link|
 |------|----------|
