@@ -4,12 +4,12 @@
 > 의류 실측 데이터 기반 프리사이즈 분석 및 개인화 의류 추천 시스템
 
 ## 목차
-[Introduction](#-introduction)
+[💡Introduction](#-introduction)
 1. [Project Introduction](#1-Project-Introduction)
 2. [Result Video](#2-Result-Video)
 3. [Project Background](#3-project-background)
 
-[Development Process](#%EF%B8%8F-development-process)
+[⚙️Development Process](#%EF%B8%8F-development-process)
 1. [Data Description](#1-Data-Description)
 2. [EDA](#2-EDA)
 3. [Preprocessing](#3-Preprocessing)
